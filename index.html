@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ActNews 아카이브</title>
+
+  <!-- SEO 메타 태그 -->
+  <meta name="description" content="행동실무와 인사이트를 담은 글들을 아카이브합니다. 최신 글과 깊이 있는 분석을 가장 먼저 받아보세요.">
+  <meta name="keywords" content="경제, 비즈니스, 인사이트, 아카이브, 뉴스레터">
+  <meta name="author" content="ActNews">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph 태그 -->
+  <meta property="og:title" content="ActNews 아카이브">
+  <meta property="og:description" content="행동실무와 인사이트를 담은 글들을 아카이브합니다.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://act-blog1-beta.vercel.app/">
+  <meta property="og:site_name" content="ActNews 아카이브">
+
+  <!-- Twitter Card 태그 -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="ActNews 아카이브">
+  <meta name="twitter:description" content="행동실무와 인사이트를 담은 글들을 아카이브합니다.">
+
+  <!-- 보안 헤더 -->
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta http-equiv="X-Frame-Options" content="DENY">
+  <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="canonical" href="https://act-blog1-beta.vercel.app/">
+</head>
+<body>
+  <header class="site-header">
+    <h1><a href="/">ActNews 아카이브</a></h1>
+  </header>
+  <main>
+    <!-- Search Section -->
+    <section class="search-section">
+      <input type="text" id="search-input" placeholder="검색어 입력 (예: 부동산, 조인트, 니체)..." />
+    </section>
+
+    <!-- Posts Grid Section -->
+    <section class="posts-section">
+      <div class="card-grid">
+        <!-- 포스트 카드들이 여기에 동적으로 생성됩니다 -->
+      </div>
+    </section>
+  </main>
+
+  <script src="posts.js"></script>
+  <script src="search.js"></script>
+</body>
+</html>
