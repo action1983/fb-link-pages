@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ActNews 아카이브</title>
+
+  <!-- SEO 메타 태그 -->
+  <meta name="description" content="행동실무와 인사이트를 담은 글들을 아카이브합니다. 최신 글과 깊이 있는 분석을 가장 먼저 받아보세요.">
+  <meta name="keywords" content="경제, 비즈니스, 인사이트, 아카이브, 뉴스레터">
+  <meta name="author" content="ActNews">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph 태그 -->
+  <meta property="og:title" content="ActNews 아카이브">
+  <meta property="og:description" content="행동실무와 인사이트를 담은 글들을 아카이브합니다.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://act-blog1-beta.vercel.app/">
+  <meta property="og:site_name" content="ActNews 아카이브">
+
+  <!-- Twitter Card 태그 -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="ActNews 아카이브">
+  <meta name="twitter:description" content="행동실무와 인사이트를 담은 글들을 아카이브합니다.">
+
+  <!-- 보안 헤더 -->
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta http-equiv="X-Frame-Options" content="DENY">
+  <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="canonical" href="https://act-blog1-beta.vercel.app/">
+</head>
+<body>
+  <header class="site-header">
+    <h1><a href="/">Eleventy 블로그</a></h1>
+  </header>
+  <main class="post-detail">
+
+    <article>
+
+      <!-- Hero Section -->
+      <section class="hero-section bg-gradient-to-br from-blue-50 to-indigo-100 py-16 px-4">
+        <div class="max-w-4xl mx-auto text-center">
+          <!-- Title -->
+          <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+            ActNews 아카이브
+          </h1>
+
+          <!-- Description -->
+          <p class="text-xl text-gray-700 mb-8 max-w-2xl mx-auto leading-relaxed">
+            행동실무와 인사이트를 담은 글들을 아카이브합니다.
+            최신 글과 깊이 있는 분석을 가장 먼저 받아보세요.
+          </p>
+
+          <!-- Community Link -->
+          <div class="mb-8">
+            <a href="/community/" class="inline-flex items-center px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors">
+              <i class="fas fa-comments mr-2"></i>
+              커뮤니티 가기
+            </a>
+          </div>
+
+          <!-- Substack Subscription Form -->
+          <div class="subscribe-hero bg-white rounded-xl shadow-lg p-6 md:p-8 max-w-2xl mx-auto">
+            <h2 class="text-2xl font-semibold text-gray-900 mb-3">�� ActNews 뉴스레터 구독</h2>
+            <p class="text-gray-600 mb-6">최신 글과 인사이트를 가장 먼저 이메일로 받아보세요.</p>
+            <iframe
+              src="https://106785.substack.com/embed"
+              width="100%"
+              height="320"
+              style="border:1px solid #EEE; background:white; border-radius: 8px;"
+              frameborder="0"
+              scrolling="no">
+            </iframe>
+          </div>
+        </div>
+      </section>
+
+      <!-- Search Section -->
+      <section class="search-section py-8 px-4 bg-white">
+        <div class="max-w-4xl mx-auto">
+          <div class="search-container">
+            <span class="search-icon" aria-hidden="true">🔍</span>
+            <input type="text" id="search-input" placeholder="검색어 입력 (예: 부동산, 조인트, 니체)..." />
+          </div>
+        </div>
+      </section>
+
+      <!-- Posts Grid Section -->
+      <section class="posts-section py-8 px-4 bg-gray-50">
+        <div class="max-w-6xl mx-auto">
+          <div class="card-grid">
+            <!-- 포스트 카드들이 여기에 동적으로 생성됩니다 -->
+          </div>
+        </div>
+      </section>
+    </article>
+  </main>
+</body>
+</html>
